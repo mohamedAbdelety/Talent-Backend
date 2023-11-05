@@ -1,0 +1,568 @@
+2023-09-24 15:26:02.655 +03:00 [ERR] HTTP POST /api/talent responded 500 in 23.7550 s
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at API.Controllers.TalentController.AddTalent(talentDto talentDto) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 15:26:02.971 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at API.Controllers.TalentController.AddTalent(talentDto talentDto) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 15:26:08.909 +03:00 [INF] HTTP GET /api/talent responded 204 in 2.4147 s
+2023-09-24 15:27:12.874 +03:00 [ERR] HTTP POST /api/talent responded 500 in 11.9289 s
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at API.Controllers.TalentController.AddTalent(talentDto talentDto) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 15:27:12.945 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at API.Controllers.TalentController.AddTalent(talentDto talentDto) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 15:30:56.607 +03:00 [INF] HTTP POST /api/talent responded 200 in 74.9115 s
+2023-09-24 15:30:56.724 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0006 s
+2023-09-24 15:30:57.359 +03:00 [INF] HTTP GET /index.html responded 200 in 0.6273 s
+2023-09-24 15:44:18.560 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0443 s
+2023-09-24 15:44:18.706 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0268 s
+2023-09-24 17:05:40.602 +03:00 [INF] HTTP POST /api/talent responded 200 in 1.7575 s
+2023-09-24 17:05:40.741 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0007 s
+2023-09-24 17:05:40.798 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0422 s
+2023-09-24 17:06:32.416 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0018 s
+2023-09-24 17:06:32.455 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0136 s
+2023-09-24 17:06:40.922 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0000 s
+2023-09-24 17:06:40.943 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0137 s
+2023-09-24 17:08:02.823 +03:00 [INF] HTTP POST /api/talent responded 200 in 0.2770 s
+2023-09-24 17:08:02.874 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:08:08.065 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0040 s
+2023-09-24 17:08:13.837 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:14:41.696 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0487 s
+2023-09-24 17:14:56.390 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0008 s
+2023-09-24 17:23:54.006 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0476 s
+2023-09-24 17:23:56.058 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.9178 s
+2023-09-24 17:24:03.348 +03:00 [INF] HTTP OPTIONS /api/talent/reject/fd0d10e3-7e4a-4d64-3c54-08dbbcfa1711 responded 204 in 0.0007 s
+2023-09-24 17:24:03.356 +03:00 [INF] HTTP PATCH /index.html responded 404 in 0.0003 s
+2023-09-24 17:24:25.182 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0016 s
+2023-09-24 17:24:25.320 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.1297 s
+2023-09-24 17:25:15.817 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0014 s
+2023-09-24 17:25:15.864 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0338 s
+2023-09-24 17:25:21.277 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:25:21.294 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0078 s
+2023-09-24 17:25:22.468 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0054 s
+2023-09-24 17:25:23.501 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0211 s
+2023-09-24 17:25:39.211 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:25:39.221 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0054 s
+2023-09-24 17:26:17.926 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0011 s
+2023-09-24 17:26:17.966 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0334 s
+2023-09-24 17:26:39.406 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:26:39.447 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0334 s
+2023-09-24 17:26:41.758 +03:00 [INF] HTTP OPTIONS /api/talent/reject/fd0d10e3-7e4a-4d64-3c54-08dbbcfa1711 responded 204 in 0.0001 s
+2023-09-24 17:26:41.765 +03:00 [INF] HTTP PATCH /index.html responded 404 in 0.0000 s
+2023-09-24 17:26:42.384 +03:00 [INF] HTTP PATCH /index.html responded 404 in 0.0000 s
+2023-09-24 17:26:42.820 +03:00 [INF] HTTP PATCH /index.html responded 404 in 0.0001 s
+2023-09-24 17:26:43.604 +03:00 [INF] HTTP OPTIONS /api/talent/accept/fd0d10e3-7e4a-4d64-3c54-08dbbcfa1711 responded 204 in 0.0000 s
+2023-09-24 17:26:43.609 +03:00 [INF] HTTP PATCH /index.html responded 404 in 0.0001 s
+2023-09-24 17:26:44.358 +03:00 [INF] HTTP PATCH /index.html responded 404 in 0.0001 s
+2023-09-24 17:27:01.705 +03:00 [INF] HTTP OPTIONS /api/talent/ responded 204 in 0.0001 s
+2023-09-24 17:27:01.711 +03:00 [INF] HTTP DELETE /api/talent/ responded 405 in 0.0002 s
+2023-09-24 17:27:04.405 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0003 s
+2023-09-24 17:27:04.433 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0185 s
+2023-09-24 17:34:18.588 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0412 s
+2023-09-24 17:34:46.816 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 28.1439 s
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Service.Services.TalentService.<>c__DisplayClass8_0.<GetPendingTalents>b__0(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 166
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetPendingTalents() in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 162
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 17:34:47.017 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Service.Services.TalentService.<>c__DisplayClass8_0.<GetPendingTalents>b__0(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 166
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetPendingTalents() in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 162
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 17:34:49.919 +03:00 [INF] HTTP OPTIONS /api/talent/ responded 204 in 0.0008 s
+2023-09-24 17:34:50.418 +03:00 [INF] HTTP DELETE /api/talent/ responded 200 in 0.4908 s
+2023-09-24 17:34:58.360 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:34:58.402 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0369 s
+2023-09-24 17:36:05.114 +03:00 [INF] HTTP POST /api/talent responded 200 in 0.6316 s
+2023-09-24 17:36:05.173 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:36:25.567 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 20.3850 s
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Service.Services.TalentService.<>c__DisplayClass8_0.<GetPendingTalents>b__0(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 166
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetPendingTalents() in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 162
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 17:36:25.669 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Service.Services.TalentService.<>c__DisplayClass8_0.<GetPendingTalents>b__0(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 166
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetPendingTalents() in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 162
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 17:37:34.786 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0555 s
+2023-09-24 17:38:09.432 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0539 s
+2023-09-24 17:40:49.980 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0410 s
+2023-09-24 17:40:51.857 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.7447 s
+2023-09-24 17:42:26.330 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0581 s
+2023-09-24 17:42:28.419 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.9162 s
+2023-09-24 17:42:29.703 +03:00 [INF] HTTP OPTIONS /api/talent/reject/3bd5c15e-c9b9-4a05-2b14-08dbbd0b953f responded 204 in 0.0003 s
+2023-09-24 17:42:30.206 +03:00 [INF] HTTP PATCH /api/talent/reject/3bd5c15e-c9b9-4a05-2b14-08dbbd0b953f responded 200 in 0.4972 s
+2023-09-24 17:42:30.231 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0134 s
+2023-09-24 17:44:46.648 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0478 s
+2023-09-24 17:44:48.145 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.4407 s
+2023-09-24 17:46:17.716 +03:00 [INF] HTTP POST /api/talent responded 200 in 1.6700 s
+2023-09-24 17:46:17.716 +03:00 [INF] HTTP POST /api/talent responded 200 in 1.7196 s
+2023-09-24 17:46:17.764 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-24 17:46:17.866 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0956 s
+2023-09-24 17:46:40.767 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0025 s
+2023-09-24 17:46:40.863 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0882 s
+2023-09-24 17:46:42.432 +03:00 [INF] HTTP OPTIONS /api/talent/reject/fba45ab4-2342-4791-6e85-08dbbd0d0216 responded 204 in 0.0002 s
+2023-09-24 17:46:42.529 +03:00 [INF] HTTP PATCH /api/talent/reject/fba45ab4-2342-4791-6e85-08dbbd0d0216 responded 200 in 0.0906 s
+2023-09-24 17:46:42.560 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0181 s
+2023-09-24 17:46:51.573 +03:00 [INF] HTTP OPTIONS /api/talent/accept/040bb13d-ee46-4cd5-6e84-08dbbd0d0216 responded 204 in 0.0001 s
+2023-09-24 17:50:24.169 +03:00 [INF] HTTP OPTIONS /api/talent/accept/040bb13d-ee46-4cd5-6e84-08dbbd0d0216 responded 204 in 0.0428 s
+2023-09-24 17:51:56.027 +03:00 [INF] HTTP OPTIONS /api/talent/accept/040bb13d-ee46-4cd5-6e84-08dbbd0d0216 responded 204 in 0.0449 s
+2023-09-24 17:51:57.715 +03:00 [INF] HTTP PATCH /api/talent/accept/040bb13d-ee46-4cd5-6e84-08dbbd0d0216 responded 200 in 1.6316 s
+2023-09-24 17:51:57.722 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0005 s
+2023-09-24 17:51:57.918 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.1902 s
+2023-09-24 17:56:30.963 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 14.4736 s
+2023-09-24 17:56:30.963 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 14.4737 s
+2023-09-24 17:57:05.824 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 20.2611 s
+2023-09-24 17:57:05.828 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 7.7731 s
+2023-09-24 18:53:21.383 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.7805 s
+2023-09-24 18:53:21.391 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0904 s
+2023-09-24 19:22:15.847 +03:00 [ERR] HTTP GET /api/Star responded 500 in 0.1926 s
+System.InvalidOperationException: Unable to resolve service for type 'Service.IServices.IStarService' while attempting to activate 'API.Controllers.StarController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 19:22:16.073 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Service.IServices.IStarService' while attempting to activate 'API.Controllers.StarController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 19:23:45.284 +03:00 [ERR] HTTP GET /api/Star responded 500 in 1.1991 s
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Service.Services.StarService.Get(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at API.Controllers.StarController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 19:23:45.493 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Service.Services.StarService.Get(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at API.Controllers.StarController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 19:27:13.057 +03:00 [ERR] HTTP GET /api/Star responded 500 in 21.7179 s
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Service.Services.StarService.Get(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at API.Controllers.StarController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-24 19:27:13.267 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Service.Services.StarService.Get(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at API.Controllers.StarController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-24 19:29:59.089 +03:00 [INF] HTTP GET /api/Star responded 200 in 21.9864 s
+2023-09-24 19:37:39.761 +03:00 [INF] HTTP GET /api/Star responded 200 in 5.5586 s
+2023-09-24 19:40:02.824 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.8333 s
+2023-09-24 19:40:02.854 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1088 s
+2023-09-24 19:40:40.125 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0607 s
+2023-09-24 19:40:40.144 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0381 s
+2023-09-24 19:40:59.964 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0333 s
+2023-09-24 19:41:00.003 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0207 s
+2023-09-24 19:46:04.376 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1205 s
+2023-09-24 19:46:04.390 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0125 s
+2023-09-24 19:46:50.891 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0174 s
+2023-09-24 19:46:50.901 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0084 s
+2023-09-24 19:47:09.275 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0355 s
+2023-09-24 19:47:09.364 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0159 s
+2023-09-24 19:49:15.671 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0778 s
+2023-09-24 19:49:15.740 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0147 s
+2023-09-24 19:49:30.904 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0105 s
+2023-09-24 19:49:30.925 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0185 s
+2023-09-24 19:50:07.676 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0368 s
+2023-09-24 19:50:07.694 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0156 s
+2023-09-24 19:50:26.789 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0108 s
+2023-09-24 19:50:26.830 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0133 s
+2023-09-24 19:51:29.240 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0666 s
+2023-09-24 19:51:29.268 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0239 s
+2023-09-24 19:52:45.074 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0701 s
+2023-09-24 19:52:45.103 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0205 s
+2023-09-24 19:53:36.916 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0721 s
+2023-09-24 19:53:36.942 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0228 s
+2023-09-24 19:57:36.977 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0553 s
+2023-09-24 19:57:37.224 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0127 s
+2023-09-24 19:57:41.955 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0120 s
+2023-09-24 19:57:41.971 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0136 s
+2023-09-24 19:58:04.858 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0952 s
+2023-09-24 19:58:04.909 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0477 s
+2023-09-24 19:58:24.256 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0149 s
+2023-09-24 19:58:24.272 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0139 s
+2023-09-24 19:59:32.269 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0360 s
+2023-09-24 19:59:32.295 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0122 s
+2023-09-24 20:00:47.941 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0488 s
+2023-09-24 20:00:47.964 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0115 s
+2023-09-24 20:02:03.340 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0430 s
+2023-09-24 20:02:03.354 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0118 s
+2023-09-24 20:02:10.748 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0118 s
+2023-09-24 20:02:10.782 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0329 s
+2023-09-24 20:04:49.600 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0618 s
+2023-09-24 20:04:49.837 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0209 s
+2023-09-24 20:06:00.619 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0778 s
+2023-09-24 20:06:00.666 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0129 s
+2023-09-24 20:06:44.173 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0284 s
+2023-09-24 20:06:44.188 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0120 s
+2023-09-24 20:07:45.105 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0912 s
+2023-09-24 20:07:45.127 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0187 s
+2023-09-24 20:09:31.216 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0417 s
+2023-09-24 20:09:31.247 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0282 s
+2023-09-24 20:11:21.102 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.3548 s
+2023-09-24 20:11:21.113 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0194 s
+2023-09-24 20:11:37.432 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0207 s
+2023-09-24 20:11:37.447 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0128 s
+2023-09-24 20:42:06.477 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0677 s
+2023-09-24 20:42:06.477 +03:00 [INF] HTTP GET /api/Star responded 200 in 2.6145 s
+2023-09-24 20:42:22.531 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0183 s
+2023-09-24 20:42:22.565 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0315 s
+2023-09-24 20:45:02.039 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0776 s
+2023-09-24 20:45:02.084 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0311 s
+2023-09-24 20:45:11.120 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0422 s
+2023-09-24 20:45:11.139 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0174 s
+2023-09-24 20:46:26.524 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1061 s
+2023-09-24 20:46:26.545 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0175 s
+2023-09-24 20:46:32.830 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0180 s
+2023-09-24 20:46:32.874 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0187 s
+2023-09-24 20:46:44.461 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0209 s
+2023-09-24 20:46:44.507 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0170 s
+2023-09-24 21:10:41.837 +03:00 [INF] HTTP GET /api/Star responded 200 in 2.0761 s
+2023-09-24 21:10:41.837 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0305 s
+2023-09-24 21:10:48.094 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1933 s
+2023-09-24 21:10:50.517 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0097 s
+2023-09-24 21:10:52.589 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0069 s
+2023-09-24 21:10:55.673 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0075 s
+2023-09-24 21:10:57.797 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0096 s
+2023-09-24 21:11:01.411 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0080 s
+2023-09-24 21:11:03.426 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0205 s
+2023-09-24 21:11:05.992 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.2122 s
+2023-09-24 21:11:07.460 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0109 s
+2023-09-24 21:11:08.743 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0084 s
+2023-09-24 21:11:10.180 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0076 s
+2023-09-24 21:11:11.807 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0142 s
+2023-09-24 21:15:17.359 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0463 s
+2023-09-24 21:15:17.674 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0833 s
+2023-09-24 21:17:18.104 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0469 s
+2023-09-24 21:17:18.342 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0269 s
+2023-09-24 21:18:07.099 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0469 s
+2023-09-24 21:18:07.146 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0140 s
+2023-09-24 21:19:03.239 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0369 s
+2023-09-24 21:19:03.286 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0424 s
+2023-09-24 21:20:27.051 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0622 s
+2023-09-24 21:20:27.517 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0237 s
+2023-09-24 21:21:05.485 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0138 s
+2023-09-24 21:21:05.503 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0154 s
+2023-09-24 21:21:47.261 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0487 s
+2023-09-24 21:21:47.463 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0212 s
+2023-09-24 21:23:19.779 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0579 s
+2023-09-24 21:23:19.794 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0124 s
+2023-09-24 21:24:58.996 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0739 s
+2023-09-24 21:24:59.032 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0242 s
+2023-09-24 21:27:15.405 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0855 s
+2023-09-24 21:27:15.426 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0182 s
+2023-09-24 21:27:41.757 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0869 s
+2023-09-24 21:27:41.775 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0154 s
+2023-09-24 21:27:47.181 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0147 s
+2023-09-24 21:27:47.225 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0181 s
+2023-09-24 21:28:27.832 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0411 s
+2023-09-24 21:28:27.851 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0176 s
+2023-09-24 21:28:55.760 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0851 s
+2023-09-24 21:28:55.783 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0186 s
+2023-09-24 21:29:16.722 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0352 s
+2023-09-24 21:29:16.743 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0181 s
+2023-09-24 21:32:12.508 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0751 s
+2023-09-24 21:32:12.526 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0148 s
+2023-09-24 21:32:25.578 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0617 s
+2023-09-24 21:32:25.606 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0243 s
+2023-09-24 21:32:41.163 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0300 s
+2023-09-24 21:32:41.183 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0182 s
+2023-09-24 21:33:03.636 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0167 s
+2023-09-24 21:33:03.710 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0133 s
+2023-09-24 21:34:16.305 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0467 s
+2023-09-24 21:34:16.320 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0127 s
+2023-09-24 21:34:46.452 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0794 s
+2023-09-24 21:34:46.473 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0196 s
+2023-09-24 21:43:49.206 +03:00 [INF] HTTP POST /api/talent responded 200 in 4.6802 s
+2023-09-24 21:43:49.689 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0030 s
+2023-09-24 21:43:50.530 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.8041 s
+2023-09-24 21:44:06.919 +03:00 [INF] HTTP OPTIONS /api/talent/accept/319d4600-5fab-4a87-bcd7-08dbbd2e2f1b responded 204 in 0.0005 s
+2023-09-24 21:44:07.411 +03:00 [INF] HTTP PATCH /api/talent/accept/319d4600-5fab-4a87-bcd7-08dbbd2e2f1b responded 200 in 0.4687 s
+2023-09-24 21:44:07.446 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0002 s
+2023-09-24 21:44:07.506 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0299 s
+2023-09-24 21:44:12.936 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.5263 s
+2023-09-24 21:44:13.000 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.6208 s
+2023-09-24 21:44:35.141 +03:00 [INF] HTTP GET /api/Star responded 200 in 1.2481 s
+2023-09-24 21:44:35.221 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0615 s
+2023-09-24 21:44:43.723 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0864 s
+2023-09-24 21:44:46.321 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0245 s
+2023-09-24 21:44:48.319 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0402 s
+2023-09-24 21:44:52.026 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.2809 s
+2023-09-24 21:44:54.166 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0335 s
+2023-09-24 21:44:55.665 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0395 s
+2023-09-24 21:44:59.285 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0308 s
+2023-09-24 21:45:01.641 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0321 s
+2023-09-24 21:45:04.935 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0549 s
+2023-09-24 21:57:09.710 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0474 s
+2023-09-24 21:57:09.774 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0617 s

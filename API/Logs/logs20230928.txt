@@ -1,0 +1,929 @@
+2023-09-28 06:35:24.068 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0517 s
+2023-09-28 06:35:25.471 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.3128 s
+2023-09-28 06:35:29.095 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.7526 s
+2023-09-28 06:35:29.098 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0696 s
+2023-09-28 06:35:42.280 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1326 s
+2023-09-28 06:35:42.295 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0127 s
+2023-09-28 06:37:49.887 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0464 s
+2023-09-28 06:37:49.901 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0115 s
+2023-09-28 06:38:27.909 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0122 s
+2023-09-28 06:38:27.959 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0119 s
+2023-09-28 06:39:18.797 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0428 s
+2023-09-28 06:39:18.823 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0222 s
+2023-09-28 06:39:22.943 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0795 s
+2023-09-28 06:39:22.958 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0402 s
+2023-09-28 06:41:15.216 +03:00 [INF] HTTP POST /api/talent responded 200 in 0.8671 s
+2023-09-28 06:41:15.264 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 06:41:15.344 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0723 s
+2023-09-28 06:45:15.972 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 06:45:16.044 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0667 s
+2023-09-28 06:47:29.667 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 06:47:29.697 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0240 s
+2023-09-28 06:47:39.035 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1626 s
+2023-09-28 06:47:39.052 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0636 s
+2023-09-28 06:48:42.076 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0013 s
+2023-09-28 06:48:42.121 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0377 s
+2023-09-28 06:48:49.939 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1364 s
+2023-09-28 06:48:49.987 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0789 s
+2023-09-28 06:48:51.242 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 06:48:51.267 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0189 s
+2023-09-28 06:49:26.595 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 06:49:26.656 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0546 s
+2023-09-28 06:49:57.867 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0000 s
+2023-09-28 06:49:57.907 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0342 s
+2023-09-28 06:50:04.075 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0850 s
+2023-09-28 06:50:04.125 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0879 s
+2023-09-28 06:52:10.986 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1016 s
+2023-09-28 06:52:11.000 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0532 s
+2023-09-28 06:52:28.904 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0792 s
+2023-09-28 06:52:29.020 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0576 s
+2023-09-28 06:53:43.988 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0854 s
+2023-09-28 06:53:44.050 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0626 s
+2023-09-28 06:55:37.082 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1425 s
+2023-09-28 06:55:37.093 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0869 s
+2023-09-28 06:55:44.476 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0003 s
+2023-09-28 06:56:07.797 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0499 s
+2023-09-28 06:56:07.906 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0447 s
+2023-09-28 06:56:38.467 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1212 s
+2023-09-28 06:56:38.477 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0879 s
+2023-09-28 06:56:48.941 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0001 s
+2023-09-28 06:56:49.036 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0001 s
+2023-09-28 06:58:52.385 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6573 s
+2023-09-28 06:58:52.385 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6574 s
+2023-09-28 06:58:58.771 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0020 s
+2023-09-28 06:59:32.946 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1384 s
+2023-09-28 06:59:32.957 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1238 s
+2023-09-28 06:59:45.030 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0850 s
+2023-09-28 06:59:45.046 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1005 s
+2023-09-28 07:01:08.984 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0403 s
+2023-09-28 07:01:34.019 +03:00 [ERR] HTTP GET /api/Preference responded 500 in 0.5117 s
+System.NotImplementedException: The method or operation is not implemented.
+   at Service.Services.PreferenceService.GetPreferences() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at API.Controllers.PreferenceController.GetPreferences() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 07:01:34.210 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at Service.Services.PreferenceService.GetPreferences() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at API.Controllers.PreferenceController.GetPreferences() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 07:01:34.345 +03:00 [ERR] HTTP GET /api/Preference responded 500 in 0.1223 s
+System.NotImplementedException: The method or operation is not implemented.
+   at Service.Services.PreferenceService.GetPreferences() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at API.Controllers.PreferenceController.GetPreferences() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 07:01:34.381 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at Service.Services.PreferenceService.GetPreferences() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at API.Controllers.PreferenceController.GetPreferences() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 07:02:09.704 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.4040 s
+2023-09-28 07:02:09.723 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.3911 s
+2023-09-28 07:03:29.073 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0529 s
+2023-09-28 07:03:30.205 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.0627 s
+2023-09-28 07:03:34.652 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.4567 s
+2023-09-28 07:03:34.652 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.4397 s
+2023-09-28 07:03:39.310 +03:00 [INF] HTTP OPTIONS /api/Preference responded 204 in 0.0002 s
+2023-09-28 07:08:59.644 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6326 s
+2023-09-28 07:08:59.644 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6326 s
+2023-09-28 07:09:02.699 +03:00 [INF] HTTP OPTIONS /api/Preference responded 204 in 0.0014 s
+2023-09-28 07:09:02.739 +03:00 [INF] HTTP POST /api/Preference responded 400 in 0.0322 s
+2023-09-28 07:10:54.332 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0650 s
+2023-09-28 07:10:55.473 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.0786 s
+2023-09-28 07:12:57.377 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0859 s
+2023-09-28 07:12:58.851 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.2043 s
+2023-09-28 07:13:02.834 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.4903 s
+2023-09-28 07:13:02.841 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.4691 s
+2023-09-28 07:13:07.051 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0002 s
+2023-09-28 07:13:07.146 +03:00 [INF] HTTP POST /index.html responded 404 in 0.0001 s
+2023-09-28 07:14:32.356 +03:00 [INF] HTTP POST /api/Preference responded 200 in 3.2676 s
+2023-09-28 07:16:47.525 +03:00 [INF] HTTP POST /api/Preference responded 400 in 0.2974 s
+2023-09-28 07:19:12.739 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.8264 s
+2023-09-28 07:19:12.739 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.8269 s
+2023-09-28 07:19:16.802 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0364 s
+2023-09-28 07:19:16.829 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0014 s
+2023-09-28 07:19:18.104 +03:00 [INF] HTTP GET /index.html responded 200 in 1.2523 s
+2023-09-28 07:19:18.104 +03:00 [INF] HTTP GET /index.html responded 200 in 1.1741 s
+2023-09-28 07:19:27.277 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0064 s
+2023-09-28 07:19:27.329 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0174 s
+2023-09-28 07:21:41.398 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.3756 s
+2023-09-28 07:21:41.398 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.3130 s
+2023-09-28 07:21:41.460 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0102 s
+2023-09-28 07:21:41.497 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0167 s
+2023-09-28 07:22:01.696 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0118 s
+2023-09-28 07:22:01.730 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0117 s
+2023-09-28 07:23:48.356 +03:00 [INF] HTTP POST /api/Preference responded 200 in 1.0121 s
+2023-09-28 07:23:48.422 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0173 s
+2023-09-28 07:23:53.221 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0315 s
+2023-09-28 07:23:53.246 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0030 s
+2023-09-28 07:25:32.512 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.5345 s
+2023-09-28 07:25:32.525 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0115 s
+2023-09-28 07:28:41.544 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1040 s
+2023-09-28 07:28:41.560 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0136 s
+2023-09-28 07:28:58.116 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0134 s
+2023-09-28 07:28:58.144 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0143 s
+2023-09-28 07:29:02.413 +03:00 [INF] HTTP POST /api/Preference responded 400 in 0.0099 s
+2023-09-28 07:29:39.271 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0889 s
+2023-09-28 07:29:39.341 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1474 s
+2023-09-28 07:29:46.430 +03:00 [INF] HTTP POST /api/Preference responded 400 in 0.0018 s
+2023-09-28 07:30:36.196 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1318 s
+2023-09-28 07:30:36.206 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.2450 s
+2023-09-28 07:30:42.384 +03:00 [INF] HTTP POST /api/Preference responded 400 in 0.0018 s
+2023-09-28 07:32:52.379 +03:00 [INF] HTTP POST /api/Preference responded 400 in 0.3618 s
+2023-09-28 07:33:31.805 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.7443 s
+2023-09-28 07:33:31.820 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0194 s
+2023-09-28 07:34:17.614 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1956 s
+2023-09-28 07:34:17.621 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.2552 s
+2023-09-28 07:35:19.653 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0565 s
+2023-09-28 07:35:19.681 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0107 s
+2023-09-28 07:35:46.026 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1325 s
+2023-09-28 07:35:46.031 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1448 s
+2023-09-28 07:36:26.442 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0102 s
+2023-09-28 07:36:26.510 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0275 s
+2023-09-28 07:36:46.259 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0864 s
+2023-09-28 07:36:46.260 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0870 s
+2023-09-28 07:36:50.757 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0182 s
+2023-09-28 07:36:50.935 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.2357 s
+2023-09-28 07:36:59.611 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0125 s
+2023-09-28 07:36:59.634 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0180 s
+2023-09-28 07:37:12.328 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0318 s
+2023-09-28 07:37:12.329 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0298 s
+2023-09-28 07:37:24.526 +03:00 [INF] HTTP POST /api/Preference responded 200 in 6.3387 s
+2023-09-28 07:37:24.568 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0108 s
+2023-09-28 07:58:33.235 +03:00 [ERR] HTTP GET /api/Star responded 500 in 2.0598 s
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Service.Services.PreferenceService.IsPrefered(Guid personId) in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 60
+   at Service.Services.StarService.<Get>b__5_5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 65
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 07:58:33.461 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Service.Services.PreferenceService.IsPrefered(Guid personId) in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 60
+   at Service.Services.StarService.<Get>b__5_5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 65
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 08:05:40.423 +03:00 [ERR] HTTP GET /api/Star responded 500 in 1.4447 s
+System.InvalidOperationException: The LINQ expression 'DbSet<Preference>()
+    .DistinctBy(p => p.personId)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToHashSet[TSource](IEnumerable`1 source)
+   at Service.Services.PreferenceService.GetPreferedSet() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 08:05:40.616 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Preference>()
+    .DistinctBy(p => p.personId)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToHashSet[TSource](IEnumerable`1 source)
+   at Service.Services.PreferenceService.GetPreferedSet() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 08:05:41.030 +03:00 [ERR] HTTP GET /api/Star responded 500 in 0.4034 s
+System.InvalidOperationException: The LINQ expression 'DbSet<Preference>()
+    .DistinctBy(p => p.personId)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToHashSet[TSource](IEnumerable`1 source)
+   at Service.Services.PreferenceService.GetPreferedSet() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 08:05:41.097 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Preference>()
+    .DistinctBy(p => p.personId)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToHashSet[TSource](IEnumerable`1 source)
+   at Service.Services.PreferenceService.GetPreferedSet() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 08:08:32.598 +03:00 [ERR] HTTP GET /api/Star responded 500 in 1.5254 s
+System.InvalidOperationException: The LINQ expression 'DbSet<Preference>()
+    .DistinctBy(p => p.personId)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Service.Services.PreferenceService.GetPreferedSet() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 08:08:32.806 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Preference>()
+    .DistinctBy(p => p.personId)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Service.Services.PreferenceService.GetPreferedSet() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 43
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 60
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 08:11:59.500 +03:00 [INF] HTTP GET /api/Star responded 200 in 1.0965 s
+2023-09-28 08:16:17.966 +03:00 [INF] HTTP GET /api/Star responded 200 in 1.6737 s
+2023-09-28 08:16:17.966 +03:00 [INF] HTTP GET /api/Star responded 200 in 1.3982 s
+2023-09-28 08:16:28.388 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1561 s
+2023-09-28 08:16:28.388 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.7573 s
+2023-09-28 08:16:35.850 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.4276 s
+2023-09-28 08:16:44.492 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0854 s
+2023-09-28 08:16:44.524 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0654 s
+2023-09-28 08:22:46.289 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1040 s
+2023-09-28 08:22:46.289 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.4768 s
+2023-09-28 08:25:44.478 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.2019 s
+2023-09-28 08:25:44.509 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1119 s
+2023-09-28 08:25:46.456 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0636 s
+2023-09-28 08:25:46.492 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0693 s
+2023-09-28 08:26:24.354 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.2534 s
+2023-09-28 08:26:24.373 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1011 s
+2023-09-28 08:28:07.976 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1040 s
+2023-09-28 08:28:08.056 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1181 s
+2023-09-28 08:28:53.997 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0822 s
+2023-09-28 08:28:54.038 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0675 s
+2023-09-28 08:29:24.314 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0657 s
+2023-09-28 08:29:24.436 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0850 s
+2023-09-28 08:29:47.188 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0507 s
+2023-09-28 08:29:47.544 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.2357 s
+2023-09-28 08:29:47.544 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.2428 s
+2023-09-28 08:30:17.761 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0667 s
+2023-09-28 08:30:17.797 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1028 s
+2023-09-28 08:30:17.819 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0811 s
+2023-09-28 08:30:22.678 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0030 s
+2023-09-28 08:30:23.030 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0583 s
+2023-09-28 08:30:23.031 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0577 s
+2023-09-28 08:31:27.357 +03:00 [INF] HTTP GET /api/Preference responded 200 in 2.1111 s
+2023-09-28 08:31:27.431 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1501 s
+2023-09-28 08:31:27.447 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1672 s
+2023-09-28 08:31:48.041 +03:00 [INF] HTTP GET /api/Preference responded 200 in 1.9527 s
+2023-09-28 08:31:48.077 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0804 s
+2023-09-28 08:31:48.081 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1060 s
+2023-09-28 08:37:32.609 +03:00 [INF] HTTP GET /api/Preference responded 200 in 1.8866 s
+2023-09-28 08:37:32.674 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1231 s
+2023-09-28 08:37:32.686 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0628 s
+2023-09-28 08:37:43.715 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1087 s
+2023-09-28 08:37:43.730 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0122 s
+2023-09-28 08:37:47.195 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.3321 s
+2023-09-28 08:39:02.672 +03:00 [INF] HTTP GET /api/Preference responded 200 in 4.8558 s
+2023-09-28 08:39:02.700 +03:00 [INF] HTTP GET /api/Star responded 200 in 2.0016 s
+2023-09-28 08:39:02.718 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0154 s
+2023-09-28 08:40:28.943 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0536 s
+2023-09-28 08:40:29.046 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0291 s
+2023-09-28 08:40:29.064 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0153 s
+2023-09-28 08:41:46.136 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0308 s
+2023-09-28 08:41:46.193 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0304 s
+2023-09-28 08:41:46.264 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0205 s
+2023-09-28 08:42:51.465 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0392 s
+2023-09-28 08:42:51.693 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0287 s
+2023-09-28 08:42:51.709 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0140 s
+2023-09-28 08:43:02.160 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0051 s
+2023-09-28 08:43:02.336 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0128 s
+2023-09-28 08:43:02.352 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0134 s
+2023-09-28 08:43:34.961 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0769 s
+2023-09-28 08:43:35.000 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0838 s
+2023-09-28 08:43:41.940 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0188 s
+2023-09-28 08:43:42.025 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0046 s
+2023-09-28 08:43:42.140 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0605 s
+2023-09-28 08:44:02.446 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0848 s
+2023-09-28 08:44:02.499 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1235 s
+2023-09-28 08:44:02.512 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0357 s
+2023-09-28 08:44:06.271 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0160 s
+2023-09-28 08:44:06.409 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0434 s
+2023-09-28 08:44:14.075 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0287 s
+2023-09-28 08:44:14.091 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0137 s
+2023-09-28 08:45:05.625 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0572 s
+2023-09-28 08:45:05.686 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0297 s
+2023-09-28 08:45:05.701 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0124 s
+2023-09-28 08:46:39.054 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0332 s
+2023-09-28 08:46:39.243 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0648 s
+2023-09-28 08:46:39.265 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0186 s
+2023-09-28 08:46:42.538 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0413 s
+2023-09-28 08:47:09.369 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0006 s
+2023-09-28 08:47:09.566 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.1911 s
+2023-09-28 08:47:12.400 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1317 s
+2023-09-28 08:47:12.452 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0770 s
+2023-09-28 08:47:13.271 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0415 s
+2023-09-28 08:47:13.305 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0320 s
+2023-09-28 08:47:16.032 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 08:47:16.057 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0183 s
+2023-09-28 08:51:13.619 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1847 s
+2023-09-28 08:51:13.664 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1178 s
+2023-09-28 08:51:15.601 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 08:51:15.628 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0213 s
+2023-09-28 08:51:17.752 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0261 s
+2023-09-28 08:51:17.769 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0142 s
+2023-09-28 08:53:09.021 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0302 s
+2023-09-28 08:53:09.068 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0239 s
+2023-09-28 08:53:09.110 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0343 s
+2023-09-28 09:11:55.477 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0336 s
+2023-09-28 09:11:55.601 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0305 s
+2023-09-28 09:11:55.703 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0867 s
+2023-09-28 09:12:05.634 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0061 s
+2023-09-28 09:12:05.649 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0199 s
+2023-09-28 09:12:05.673 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0209 s
+2023-09-28 09:12:12.831 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0065 s
+2023-09-28 09:12:12.858 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0117 s
+2023-09-28 09:12:12.886 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0131 s
+2023-09-28 09:13:10.318 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0742 s
+2023-09-28 09:13:10.344 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0793 s
+2023-09-28 09:13:10.408 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0612 s
+2023-09-28 09:14:06.634 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0436 s
+2023-09-28 09:14:14.123 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0056 s
+2023-09-28 09:14:49.978 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 09:14:50.008 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0241 s
+2023-09-28 09:14:57.850 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1357 s
+2023-09-28 09:14:57.884 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0873 s
+2023-09-28 09:15:02.235 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0357 s
+2023-09-28 09:15:02.255 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0160 s
+2023-09-28 09:16:42.727 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0717 s
+2023-09-28 09:16:42.734 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0778 s
+2023-09-28 09:16:42.748 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0121 s
+2023-09-28 09:18:15.498 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0314 s
+2023-09-28 09:18:15.555 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0226 s
+2023-09-28 09:18:15.831 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0148 s
+2023-09-28 09:18:26.866 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0149 s
+2023-09-28 09:18:26.903 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0125 s
+2023-09-28 09:18:26.950 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0364 s
+2023-09-28 09:18:58.607 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0057 s
+2023-09-28 09:20:18.935 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0320 s
+2023-09-28 09:20:30.750 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0059 s
+2023-09-28 09:20:34.003 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0044 s
+2023-09-28 09:20:52.486 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0048 s
+2023-09-28 09:21:00.619 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0228 s
+2023-09-28 09:22:04.872 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0531 s
+2023-09-28 09:22:40.677 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0146 s
+2023-09-28 09:23:54.399 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0321 s
+2023-09-28 09:23:57.748 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0044 s
+2023-09-28 09:24:26.758 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0565 s
+2023-09-28 09:24:30.583 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0047 s
+2023-09-28 11:26:46.762 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Preference" for actions - API.Controllers.PreferenceController.GetPreferences (API),API.Controllers.PreferenceController.GetPreferencesList (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-28 11:29:04.214 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0130 s
+2023-09-28 11:29:04.214 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.7781 s
+2023-09-28 11:29:24.635 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.1369 s
+2023-09-28 11:29:27.459 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.6482 s
+2023-09-28 11:29:27.485 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0237 s
+2023-09-28 11:29:29.218 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0008 s
+2023-09-28 11:29:29.281 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0493 s
+2023-09-28 11:29:31.327 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.1152 s
+2023-09-28 11:29:31.343 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0097 s
+2023-09-28 11:29:35.574 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0050 s
+2023-09-28 11:29:35.632 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0248 s
+2023-09-28 11:29:35.720 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0099 s
+2023-09-28 11:33:54.679 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0679 s
+2023-09-28 11:33:54.695 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0502 s
+2023-09-28 11:33:54.706 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0095 s
+2023-09-28 11:34:02.631 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0196 s
+2023-09-28 11:34:02.658 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0460 s
+2023-09-28 11:34:02.672 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0114 s
+2023-09-28 11:47:07.108 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.6449 s
+2023-09-28 11:47:07.653 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.9331 s
+2023-09-28 11:47:07.689 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0348 s
+2023-09-28 11:47:21.688 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1429 s
+2023-09-28 11:47:21.712 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0209 s
+2023-09-28 11:52:36.071 +03:00 [INF] HTTP POST /api/talent responded 200 in 0.5536 s
+2023-09-28 11:52:36.122 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0004 s
+2023-09-28 11:52:36.272 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.1413 s
+2023-09-28 11:54:12.519 +03:00 [INF] HTTP POST /api/talent responded 200 in 0.1212 s
+2023-09-28 11:54:12.593 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 11:54:12.649 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0481 s
+2023-09-28 11:54:20.103 +03:00 [INF] HTTP OPTIONS /api/talent/accept/62912b46-caa6-406d-9018-08dbc00042ea responded 204 in 0.0001 s
+2023-09-28 11:54:20.186 +03:00 [INF] HTTP PATCH /api/talent/accept/62912b46-caa6-406d-9018-08dbc00042ea responded 200 in 0.0757 s
+2023-09-28 11:54:20.195 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-28 11:54:20.215 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0142 s
+2023-09-28 11:54:21.027 +03:00 [INF] HTTP OPTIONS /api/talent/accept/c57ff90f-f4fb-4cb6-9019-08dbc00042ea responded 204 in 0.0000 s
+2023-09-28 11:54:21.051 +03:00 [INF] HTTP PATCH /api/talent/accept/c57ff90f-f4fb-4cb6-9019-08dbc00042ea responded 200 in 0.0183 s
+2023-09-28 11:54:21.066 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0058 s
+2023-09-28 11:54:23.623 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1184 s
+2023-09-28 11:54:23.641 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0374 s
+2023-09-28 11:54:30.140 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0444 s
+2023-09-28 11:54:30.237 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0228 s
+2023-09-28 11:54:40.961 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0501 s
+2023-09-28 11:54:40.981 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0181 s
+2023-09-28 11:54:48.185 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0104 s
+2023-09-28 11:55:15.516 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0751 s
+2023-09-28 12:00:38.285 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.7204 s
+2023-09-28 12:00:51.935 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.3754 s
+2023-09-28 12:02:35.423 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0346 s
+2023-09-28 12:02:35.644 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0187 s
+2023-09-28 12:03:31.109 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0699 s
+2023-09-28 12:03:31.131 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0796 s
+2023-09-28 12:03:55.585 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.1152 s
+2023-09-28 12:03:55.586 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.1175 s
+2023-09-28 12:04:10.728 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0631 s
+2023-09-28 12:04:10.748 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0477 s
+2023-09-28 12:05:06.581 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0806 s
+2023-09-28 12:05:06.632 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0654 s
+2023-09-28 12:06:08.977 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0465 s
+2023-09-28 12:06:08.980 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0379 s
+2023-09-28 12:06:47.271 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0061 s
+2023-09-28 12:06:47.377 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0114 s
+2023-09-28 12:06:49.166 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0135 s
+2023-09-28 12:06:49.276 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0188 s
+2023-09-28 12:07:16.393 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0484 s
+2023-09-28 12:07:16.406 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0235 s
+2023-09-28 12:07:56.587 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0367 s
+2023-09-28 12:07:56.692 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0200 s
+2023-09-28 12:08:02.495 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0180 s
+2023-09-28 12:08:02.567 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0093 s
+2023-09-28 12:09:50.122 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.2869 s
+2023-09-28 12:09:50.130 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.2629 s
+2023-09-28 12:10:50.908 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0848 s
+2023-09-28 12:10:50.911 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0867 s
+2023-09-28 12:11:19.196 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0702 s
+2023-09-28 12:11:19.214 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0833 s
+2023-09-28 12:11:46.849 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0547 s
+2023-09-28 12:11:46.871 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0669 s
+2023-09-28 12:12:12.547 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0339 s
+2023-09-28 12:12:12.561 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0162 s
+2023-09-28 12:12:42.726 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0596 s
+2023-09-28 12:12:42.729 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0618 s
+2023-09-28 12:15:29.805 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0484 s
+2023-09-28 12:15:29.899 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0106 s
+2023-09-28 12:15:49.598 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0080 s
+2023-09-28 12:15:49.717 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0359 s
+2023-09-28 12:16:32.165 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0552 s
+2023-09-28 12:16:32.186 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0540 s
+2023-09-28 12:17:16.993 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0124 s
+2023-09-28 12:17:17.252 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0122 s
+2023-09-28 12:20:06.651 +03:00 [INF] HTTP GET /api/Preference responded 200 in 0.0572 s
+2023-09-28 12:20:06.814 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0127 s
+2023-09-28 12:20:27.705 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0003 s
+2023-09-28 12:46:17.480 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 2.6030 s
+2023-09-28 12:46:56.324 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0492 s
+2023-09-28 12:46:57.058 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.7750 s
+2023-09-28 12:46:57.076 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0152 s
+2023-09-28 12:50:18.303 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.1260 s
+2023-09-28 12:50:18.528 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.9829 s
+2023-09-28 12:50:18.528 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.9901 s
+2023-09-28 12:50:36.072 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.1487 s
+2023-09-28 12:50:49.992 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0002 s
+2023-09-28 12:51:16.404 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 26.4035 s
+2023-09-28 12:51:26.440 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0167 s
+2023-09-28 12:51:29.312 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0243 s
+2023-09-28 12:51:29.347 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0249 s
+2023-09-28 12:51:31.796 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.2017 s
+2023-09-28 12:51:31.796 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.1465 s
+2023-09-28 12:51:54.306 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0647 s
+2023-09-28 12:51:56.985 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0149 s
+2023-09-28 12:51:58.276 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0111 s
+2023-09-28 12:51:58.607 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0098 s
+2023-09-28 12:51:59.261 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0149 s
+2023-09-28 12:52:00.871 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0143 s
+2023-09-28 12:52:02.610 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0001 s
+2023-09-28 12:52:02.625 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0084 s
+2023-09-28 12:52:03.273 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0000 s
+2023-09-28 12:52:03.288 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0097 s
+2023-09-28 12:52:05.120 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0080 s
+2023-09-28 12:52:07.105 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0410 s
+2023-09-28 12:52:29.226 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.4291 s
+2023-09-28 12:52:29.232 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0614 s
+2023-09-28 12:52:35.838 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0221 s
+2023-09-28 12:52:35.964 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0218 s
+2023-09-28 12:53:41.178 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0385 s
+2023-09-28 12:53:41.246 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0668 s
+2023-09-28 12:53:44.377 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0213 s
+2023-09-28 12:53:44.466 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0141 s
+2023-09-28 12:53:45.974 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0001 s
+2023-09-28 12:53:46.014 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0348 s
+2023-09-28 12:53:49.236 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0249 s
+2023-09-28 12:53:49.255 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0128 s
+2023-09-28 12:53:51.857 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0111 s
+2023-09-28 12:53:57.276 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0001 s
+2023-09-28 12:53:57.292 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0094 s
+2023-09-28 12:54:00.557 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0001 s
+2023-09-28 12:54:00.601 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0393 s
+2023-09-28 12:54:03.615 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0144 s
+2023-09-28 12:54:03.630 +03:00 [INF] HTTP GET /api/Star responded 200 in 0.0132 s
+2023-09-28 12:54:06.061 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0152 s
+2023-09-28 12:54:08.972 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0490 s
+2023-09-28 12:54:10.518 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0431 s
+2023-09-28 12:54:10.539 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0306 s
+2023-09-28 12:54:13.587 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0161 s
+2023-09-28 12:54:13.734 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0497 s
+2023-09-28 12:54:15.881 +03:00 [INF] HTTP POST /api/Preference responded 200 in 0.0190 s
+2023-09-28 12:54:16.000 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0319 s
+2023-09-28 12:54:18.725 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0149 s
+2023-09-28 12:54:48.404 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0200 s
+2023-09-28 12:54:48.429 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0223 s
+2023-09-28 12:55:12.040 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0612 s
+2023-09-28 12:55:12.098 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0211 s
+2023-09-28 12:55:27.143 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0300 s
+2023-09-28 12:55:27.188 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0561 s
+2023-09-28 12:55:35.075 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0158 s
+2023-09-28 12:55:35.186 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0131 s
+2023-09-28 12:58:41.626 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0600 s
+2023-09-28 12:58:41.641 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0183 s
+2023-09-28 12:58:46.837 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0166 s
+2023-09-28 12:58:46.997 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0247 s
+2023-09-28 12:59:24.865 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0342 s
+2023-09-28 12:59:25.023 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0179 s
+2023-09-28 12:59:46.551 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0834 s
+2023-09-28 12:59:46.658 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0812 s
+2023-09-28 13:00:02.766 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0344 s
+2023-09-28 13:00:02.850 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0345 s
+2023-09-28 13:00:13.837 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0887 s
+2023-09-28 13:00:13.859 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0325 s
+2023-09-28 13:00:23.404 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0138 s
+2023-09-28 13:00:23.495 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0144 s
+2023-09-28 13:00:26.373 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0402 s
+2023-09-28 13:00:26.387 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0284 s
+2023-09-28 13:00:39.441 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0305 s
+2023-09-28 13:00:39.454 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0240 s
+2023-09-28 13:01:25.666 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0740 s
+2023-09-28 13:01:25.679 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0167 s
+2023-09-28 13:01:29.616 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0244 s
+2023-09-28 13:01:29.725 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0193 s
+2023-09-28 13:02:27.343 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0526 s
+2023-09-28 13:02:27.360 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0183 s
+2023-09-28 13:02:30.211 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0824 s
+2023-09-28 13:02:30.242 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0728 s
+2023-09-28 13:03:12.900 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0403 s
+2023-09-28 13:03:12.951 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0258 s
+2023-09-28 13:03:23.455 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0149 s
+2023-09-28 13:03:23.501 +03:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0149 s
+2023-09-28 13:03:33.601 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0001 s
+2023-09-28 13:03:33.661 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0218 s
+2023-09-28 13:03:36.838 +03:00 [INF] HTTP OPTIONS /api/Preference/ responded 204 in 0.0000 s
+2023-09-28 13:03:36.854 +03:00 [INF] HTTP DELETE /api/Preference/ responded 200 in 0.0101 s
+2023-09-28 19:35:27.130 +03:00 [INF] HTTP GET /index.html responded 200 in 0.3548 s
+2023-09-28 19:35:27.230 +03:00 [INF] HTTP GET /styles.bcdf51ab9463a87518a5.css responded 200 in 0.0287 s
+2023-09-28 19:35:27.351 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.1510 s
+2023-09-28 19:35:27.391 +03:00 [INF] HTTP GET /scripts.9f049d64c0e9cae180dd.js responded 200 in 0.1607 s
+2023-09-28 19:35:27.411 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.1827 s
+2023-09-28 19:35:27.790 +03:00 [INF] HTTP GET /main.80a87830ede0e7a80b06.js responded 200 in 0.5482 s
+2023-09-28 19:35:28.036 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0106 s
+2023-09-28 19:35:28.317 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 0.0156 s
+2023-09-28 19:35:28.651 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.7269 s
+2023-09-28 19:35:29.380 +03:00 [ERR] HTTP GET /api/Preference/list responded 500 in 1.4940 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\Thursday 28 September 202329852172614.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at Service.Services.PreferenceService.<>c__DisplayClass7_0.<GetPreferencesList>b__0(Preference p) in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 68
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 64
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-28 19:35:29.605 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\Thursday 28 September 202329852172614.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at Service.Services.PreferenceService.<>c__DisplayClass7_0.<GetPreferencesList>b__0(Preference p) in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 68
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 64
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

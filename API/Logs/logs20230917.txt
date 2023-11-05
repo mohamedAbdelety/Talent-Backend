@@ -1,0 +1,9 @@
+2023-09-17 17:23:59.820 +03:00 [INF] HTTP POST /api/talent responded 200 in 1.5134 s
+2023-09-17 17:23:59.981 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0033 s
+2023-09-17 17:24:01.015 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.0265 s
+2023-09-17 17:24:56.703 +03:00 [INF] HTTP OPTIONS /api/talent/accept/e2f101b0-2a39-4db5-11e8-08dbb789bbaf responded 204 in 0.0048 s
+2023-09-17 17:24:56.884 +03:00 [INF] HTTP PATCH /api/talent/accept/e2f101b0-2a39-4db5-11e8-08dbb789bbaf responded 200 in 0.1727 s
+2023-09-17 17:24:56.892 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0000 s
+2023-09-17 17:24:56.907 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0089 s
+2023-09-17 17:25:02.988 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1135 s
+2023-09-17 17:25:03.001 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0109 s

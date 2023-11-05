@@ -1,0 +1,2 @@
+2023-08-22 00:43:51.943 +03:00 [INF] HTTP POST /api/Talent responded 400 in 0.4295 s
+2023-08-22 00:44:15.154 +03:00 [INF] HTTP POST /api/Talent responded 400 in 0.1216 s

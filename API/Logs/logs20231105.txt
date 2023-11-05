@@ -1,0 +1,939 @@
+2023-11-05 13:36:25.635 +02:00 [INF] HTTP OPTIONS /api/Star/all responded 204 in 0.0877 s
+2023-11-05 13:36:27.754 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 2.2645 s
+2023-11-05 13:36:27.754 +02:00 [INF] HTTP GET /api/Star/all responded 200 in 2.0528 s
+2023-11-05 13:36:30.618 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.9116 s
+2023-11-05 13:36:30.638 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0182 s
+2023-11-05 13:43:27.902 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.4800 s
+2023-11-05 13:43:28.056 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6223 s
+2023-11-05 13:43:28.083 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0249 s
+2023-11-05 13:45:21.623 +02:00 [INF] HTTP POST /api/talent responded 200 in 0.8941 s
+2023-11-05 13:45:22.010 +02:00 [INF] HTTP OPTIONS /api/Talent/GetAllTalents responded 204 in 0.0004 s
+2023-11-05 13:45:22.141 +02:00 [INF] HTTP GET /api/Talent/GetAllTalents responded 200 in 0.1107 s
+2023-11-05 13:45:25.387 +02:00 [INF] HTTP OPTIONS /api/talent/ReverseApproveStatus/70d68abf-939b-4c09-2a96-08dbddf4b0c8 responded 204 in 0.0001 s
+2023-11-05 13:45:25.671 +02:00 [INF] HTTP PATCH /api/talent/ReverseApproveStatus/70d68abf-939b-4c09-2a96-08dbddf4b0c8 responded 200 in 0.2765 s
+2023-11-05 13:45:25.696 +02:00 [INF] HTTP GET /api/Talent/GetAllTalents responded 200 in 0.0144 s
+2023-11-05 13:45:27.613 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0813 s
+2023-11-05 13:45:27.635 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0219 s
+2023-11-05 13:45:38.300 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.2592 s
+2023-11-05 13:45:40.246 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0178 s
+2023-11-05 13:57:36.096 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 5.8372 s
+2023-11-05 13:57:37.179 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 6.8997 s
+2023-11-05 13:57:37.184 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0307 s
+2023-11-05 13:57:44.798 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.5894 s
+2023-11-05 13:57:46.457 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0484 s
+2023-11-05 13:57:48.146 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0309 s
+2023-11-05 14:10:25.410 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.4450 s
+2023-11-05 14:10:25.748 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.7512 s
+2023-11-05 14:10:25.771 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0468 s
+2023-11-05 14:11:16.452 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.4890 s
+2023-11-05 14:11:16.739 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6911 s
+2023-11-05 14:11:16.747 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0286 s
+2023-11-05 14:17:27.229 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.6383 s
+2023-11-05 14:17:27.556 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.9281 s
+2023-11-05 14:17:27.591 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0555 s
+2023-11-05 14:17:36.253 +02:00 [INF] HTTP OPTIONS /api/Talent/GetAllTalents responded 204 in 0.0004 s
+2023-11-05 14:17:36.340 +02:00 [INF] HTTP GET /api/Talent/GetAllTalents responded 200 in 0.0688 s
+2023-11-05 14:41:42.448 +02:00 [INF] HTTP OPTIONS /api/Talent/GetAllTalents responded 204 in 0.0107 s
+2023-11-05 14:41:43.793 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.5154 s
+2023-11-05 14:41:43.853 +02:00 [INF] HTTP GET /api/Talent/GetAllTalents responded 200 in 1.2920 s
+2023-11-05 14:41:47.779 +02:00 [INF] HTTP OPTIONS /api/Star/all responded 204 in 0.0004 s
+2023-11-05 14:41:49.219 +02:00 [ERR] HTTP GET /api/Star/all responded 500 in 1.4222 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<GetAllStars>b__9_0(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 105
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.GetAllStars() in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetAllStars() in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 14:41:49.846 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<GetAllStars>b__9_0(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 105
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.GetAllStars() in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetAllStars() in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 14:41:58.179 +02:00 [ERR] HTTP GET /api/Star responded 500 in 1.7191 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 14:41:58.668 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 14:42:00.036 +02:00 [ERR] HTTP GET /api/Star responded 500 in 1.3591 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 14:42:00.510 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 14:42:16.267 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0099 s
+2023-11-05 14:42:18.255 +02:00 [ERR] HTTP GET /api/Star responded 500 in 1.8968 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 14:42:19.318 +02:00 [ERR] HTTP GET /api/Star responded 500 in 2.8868 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 14:42:19.480 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 14:42:19.791 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Type Map configuration:
+Star -> ReturnedStar
+Domain.Entities.Star -> Domain.Entities.DTO.ReturnedStar
+
+Destination Member:
+Img
+
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\9j\4AAQSkZJRgABAQAAAQABAAD\7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE2ZjAxMDAwMDdmMDIwMDAwNDEwNDAwMDBiNTA0MDAwMDJkMDUwMDAwZDMwNjAwMDAxODA5MDAwMDY5MDkwMDAwZTYwOTAwMDA1ZjBhMDAwMDRlMGUwMDAwAP\bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP\bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP\CABEIAGQAZAMBIgACEQEDEQH\xAAbAAACAgMBAAAAAAAAAAAAAAAFBgAEAgMHAf\EABkBAQEBAQEBAAAAAAAAAAAAAAMCBAABBf\aAAwDAQACEAMQAAAB5WyAD021eL3pNd31Wru9avLJouc56+jTazW2i3zVpVjBuJiis3N2eRrcfVt0JvRS+LaHKwCZBVBXLFRsw2SKG1pXjpq3rjcJzbdrqqmZu0LN5oNHLdgacvBdS5toygZI+a+UDlIRisKG6F6KTWGrJtz369nswfiHqseeH158guSPktF6WU3hnhY7jbZRsY\oHt6uTmiYgoHrqrEsNKCGhSd3HdxN+bNzi+RhMx54+Ew1SZF1Io5CLD5THQ+VNPW8Rcg6HYJJZL0kJC+uTuHVJK4DRksh9iRAdpJGj\EACQQAAICAgICAwEBAQEAAAAAAAIDAQQAEQUSEzIQISIUMyMx\9oACAEBAAEFAs4tfXJtnMTaksJUd11ZOa1P7BfUbqIOHDIZPs6JYp5ftURJAcQvyTqPVJayoO5WGvho9oZV74W4Cyc9MDCHc4JYj7miHjCWOPLD3pldx85Z\wA+TYsrNrQji\eJmc\mZghrOLVHmYBSPIWrCiV\U6eHlvl5NnSkWssx8L9+PCGW7VcFLf8AouL9gLLFVdiI43plesKZsDDFcnRYrLEf8cq+6GeJ7ZhhAmCXVHrgFgHkzhFgGBFcmNWNSOVPeJz+wVVKNjsmr6RGD8SO4eG45AuqLE\FadM6\UluEt65xz+wDO4zeOezDazL1iWTZUYLyuMkwi\I4Y6GjE+Ku\BPfwUbyzHQOLrrdMiNoH8Vx3dEYZfsJ6yxktygnrWNWQwl4qxE5DYy80fDFtcj3GvVSjsC50KFE2SRoaaYmV\Qzln\AMtsIRDkX6WZWi40ul2Gxccy1454qgy8xtZdYEj3CFSuQnYbyzMyXIL0gInInWWy2yna8ixj6pqBFawU7sDrEHJCHpOO\wBL8fjrGMGII\WsUrYLC1\xAAgEQACAgICAgMAAAAAAAAAAAAAAQIRAyEQMRJBEyJR\9oACAEDAQE\AYFkTrof2RLriJTMS0Smosu1Zkd8Yhq9Hx6Gt7EtGXH48QI5aZF6JEY\pnlfC6FVGPS4toTTR4QIxsjGiyb0eT9kGaMfZ7EMke+P\8QAHhEAAgICAwEBAAAAAAAAAAAAAAECERAxAxIhQVH\2gAIAQIBAT8BmUM2RdC3hlonsjG0SVOiKrEy6HL0v8LtkJ9sSJcfhLwR1OKNYY7sm7eWqO0huvRysogUhlHLoWsIR8x\8QAMBAAAQMCBAQEBAcAAAAAAAAAAQACEQMhEBIxQSAiUWEEMnGBEyNioTNCUnKCkdH\2gAIAQEABj8CXxnGI0XKIb1\1ZXnMFyFSg518LjRds0IzuE1u4P2UNOivopc6CdF+JP2CurEoDg8RQd5\O1X8zbFADTA+iH6GhTo0dVK7rM9fJYB9T1evTJ6IS0Ob2TfEtF2XI6t3Wajo4XVMYBRDf6V13UlciywZQYyjzHd26e17YLE5w1QLXTdA4BNb7ppJJqG+E4c7VyVajR0lF35junMIkFEgDLrZNOLag82ZfwsnHfiInRN6XH2QH04XTT3TIk1wYvplXNZ0ocF1yHLHRBa4x1UTZRw5W0z7q9Komt2AlNc9jhJ1I1wA0G674Sg9qh3AblOrVRLpsiwtDqXdc1INPZxCA21KIwa2AE2dcL4vJKZ4egectGYhTpsAs1a7yv3I\LcQTchCNwgYHAS1xHog0u90Q+qZF2jYpocYvug3RrDmWUCVljLRbq7oslLO3sCnUgLjc9E4s8zdkCN8IxkahNqt1Nz6rlsTrhlpCAMPiNs4dFJxahhIwBacP\EACUQAQACAgICAgIDAQEAAAAAAAEAESExQVFhcRCRgcGhsfDR4f\aAAgBAQABPyFntyXMuxO2c\0Ymn\CEr3DVob\AAyqe+WVA+A5lAFVDFbatR0XRQC7As\iEPLM3+X6nNAKvudKssw70pmg6xLAC9cUWeG7v\bmJsRAfbAi6hudlTNWLe88Q4JLilgqWHz8NLm4bTAFstXDgQIOzxZuXyehLrEvfEOorso+p6RAh+owufMvIfeE0\3U6Pbye4CnS\z8UyNDuc8\Nq\LLCxdeZ7ajCN1qaYsm0ZyMoYV+pMn2ydSo5QrOs4ir4Al3iK+CI+ZSQxher4mkoxiLXh1A3ZDSV0nzAwM6GBAhkKebBlAyMtOkT1OYhz39\A5l6jcVH8TM8tLdncw4d4AxEGWHyrxKjIOSJTa+q0Y4o0PXwDJazPVA+o1kyKN0F8AylXxY+EpMsEOkET6LiHm5L\pglJoV8IFGxuYZjMCpc5Bqb4278wA9sKBMDuZwr5B9QY1u0p\cMQ2FePUKh4khh8ApyWpQ9gwHR\2C45vlmuDbPCMLlBlfJculfi5WOsDoIlONILGcODRH9yynAzev\f6lYjGldsytXCKodSpilmpc2RmliB7lHcqUoGXs+s18e6iCDAND0TnH29HiFZ1x55mPi6WoV1ZdrUyyJgQCQhK+k0qpxN3dMzdKh+j3K0cnSsaiCDyjWmDfamUlWAHsdEwlQ36fMQXFR4rYm8MK7HUDWhccfjBU9kqOMTrOaMUoyjpLGn3JLMLgoJsEY7lmxNvl4Zj5bFRDVRZhJHqj1RlgZoOLuon7KCcM6Gf\9oADAMBAAIAAwAAABCYJqIKf0r5cjnry8JrWx\y2Q\P\jyHKaHTM1t\CUGoD30Pz74H\8QAHBEBAQEBAAMBAQAAAAAAAAAAAQARIRAxQXHw\9oACAEDAQE\EAbrADchrb6QftPEMu+GXUgOr+oQBHLrfGB1scBzYYG2Ok5FpPvhcm9vLcJDXZE1W5D545i3PsMRnGPwXJfbHiXCQrcjc28hTpmFB78tnunwekZ4c8f\xAAcEQEAAgMAAwAAAAAAAAAAAAABABEQITFBUWH\2gAIAQIBAT8QslEU6uOiN9SzvkNhJWLwI1pFDEtcxdKIWWxdoOrUX2jdY6lnO4FUxNVD0lDeNmDZ4gLAqHNRlPpO1GFRkUlyrhKoXzDhgchh\8QAJRABAAICAgEEAgMBAAAAAAAAAQARITFBUWFxgZGxEKHB0fDx\9oACAEBAAE\ENIDVkINg3R9+3mI3Jv5GqGhqzkqHAm3G8aweZWVdPKK15P1BJNAtyL\AH5uEg2wnAhCqDQBF4RUmSOm\WvmXMlgrGP+ktsGOtmr65JgIQrDClfWFAcTlOlar8speml3XEJOPBQXCl1ox5isANOIeqaWjhPmCCyGXWU+2q9ZYADJv\alNVDQfzDRaxonBNArF5JexUOwEsX5ovyxwXo2w4fkT3hbQFArGuevw7Rot+pELGmsCjfnPBtg8bIFhb299yiCjlQ+VQAWqeyuIrAIPg8y6I+Ldmz8RKa7TP3FMZdw84mH52rwfk7PMAj3Hjgp5KgzbqPdtvG\1Eppr2ZYJKpJw7hRRyLNHRdmfb7mYjF5+g1GVoYAvB\veHUr31ff+6hF5Ck3KnBaLF+0LhLtFOlpWKXGozn392vWNjxK\dDoLbVxnURxUdROy+niUKW09OcZ+fwrC7G9ByxTWFADSAKTOc+zGhm3MJ3RiDDLwAowZxAMAcniEBcyyP4pkjxYCzoeA49oLNY4ADhqOCOCseY8+B4IVpRdWex4iuV3+lq+vwSWkI1blCU7YijDlZ7iwabsmtgPahlNRctmF+XMZOrr04gDLMasHNSmjtoljDBSHaTG59Lyv6IT\SDWSfo\F20MAbUzGHCVl0pofUd7ooIGrbyjBIA\BVpPbD6MAe2z9lP4mlIhKDcqs5WU1FzM6Bbo414jPYUFd1fzKxLavbVV+CJEIhqiu+Jh5rDKgLv1zFRuLVXfzuHkLCrcBp\j4h7m24dlsMUzFjnAro5gAl7bD3Mz6Bln51b9S8RzLa8WuNXbVJlYp+HRgeoGf7hFBRbXLlezEdVbUs0NT6TL2iTjh\mYTB9wMoS7TArqcTCerS0OQk54sDXLzbwlRJ1MYLxfnkjdCL9YKKRQIsq9G\cHmDc6FhaO16bdRAqNVTzE4hQL58sZDAtGS2\6g6F7IMsGGlPzKtr8zNUYL5qA4D6tGlbAz1L4pnyXQHmYduK8C6PgP3cu6zD1Qqv018wnFku0LwOsu3xK9BAtroYHjJAyuDgBrdQgAxX4goXcpOfcobOoxk2Ai9mLvDTLbdRwoG1VaZMZzqM8NKUGQ\a\iBraFcHCiuN+rANEuCPX1AhQhtKZvzalD8uYkXLB2rKbXPhII0rN6aDlW06xFqBC7Bhf+6uZ3ii+kuEKCy71HLStfvM4elji84rzFVzVQ4RNJ2wC1GHRb74YjQpljLRYevfUKyjLdLl+ZRd2H29sVVbCV\qYw5BsTwxDzpo3KnABQRWDPW2pqjCfcagijNQymgsNN3HVUXQtC7rqEBrM2C8wwB+E\9k='.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method363(Closure , Object , ReturnedStar , ResolutionContext )
+   at Service.Services.StarService.<>c__DisplayClass8_0.<Get>b__5(Star s) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 84
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.StarService.Get(StarFilterDto starfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\StarService.cs:line 0
+   at API.Controllers.StarController.GetApprovedStars(StarFilterDto starFilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\StarController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 14:45:02.115 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.5920 s
+2023-11-05 14:45:02.299 +02:00 [INF] HTTP GET /api/Star responded 200 in 1.6812 s
+2023-11-05 14:45:02.299 +02:00 [INF] HTTP GET /api/Star responded 200 in 1.6672 s
+2023-11-05 14:45:09.635 +02:00 [INF] HTTP GET /api/Star responded 200 in 0.1398 s
+2023-11-05 14:45:17.783 +02:00 [INF] HTTP OPTIONS /api/Star/all responded 204 in 0.0008 s
+2023-11-05 14:45:17.866 +02:00 [INF] HTTP GET /api/Star/all responded 200 in 0.0744 s
+2023-11-05 14:51:44.717 +02:00 [INF] HTTP GET /api/Star responded 200 in 1.8337 s
+2023-11-05 14:51:44.780 +02:00 [INF] HTTP GET /api/Star responded 200 in 0.0782 s
+2023-11-05 14:51:53.136 +02:00 [INF] HTTP POST /api/Preference responded 200 in 0.5663 s
+2023-11-05 14:51:54.990 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.0705 s
+2023-11-05 15:36:03.272 +02:00 [ERR] HTTP GET /api/Preference/list responded 500 in 2.7947 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 15:36:04.049 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 15:36:05.135 +02:00 [ERR] HTTP GET /api/Preference/list responded 500 in 1.0680 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 15:36:05.570 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 15:36:21.028 +02:00 [ERR] HTTP GET /api/Preference/list responded 500 in 1.8497 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 15:36:21.677 +02:00 [ERR] HTTP GET /api/Preference/list responded 500 in 2.3823 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-11-05 15:36:21.944 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 15:36:22.074 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Domain.Entities.Preference, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Domain.Entities.DTO.PreferenceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Type Map configuration:
+Preference -> PreferenceDto
+Domain.Entities.Preference -> Domain.Entities.DTO.PreferenceDto
+
+Destination Member:
+Id
+
+ ---> System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(Boolean overflow, String failureMessageID)
+   at System.Guid.TryParseExactN(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.TryParseGuid(ReadOnlySpan`1 guidString, GuidResult& result)
+   at System.Guid.Parse(ReadOnlySpan`1 input)
+   at System.Guid.Parse(String input)
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method112(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Service.Services.PreferenceService.GetPreferencesList() in D:\talents\talents\backend-project-template\Service\Services\PreferenceService.cs:line 69
+   at API.Controllers.PreferenceController.GetPreferencesList() in D:\talents\talents\backend-project-template\API\Controllers\PreferenceContrller.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-05 15:38:45.277 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.7089 s
+2023-11-05 15:38:45.277 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.6117 s
+2023-11-05 15:58:51.558 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 1.6585 s
+2023-11-05 15:58:51.646 +02:00 [INF] HTTP GET /api/Preference/list responded 200 in 0.1100 s
+2023-11-05 15:59:39.356 +02:00 [INF] HTTP OPTIONS /api/Contract responded 204 in 0.0007 s
+2023-11-05 15:59:40.584 +02:00 [INF] HTTP POST /api/Contract responded 200 in 0.8211 s
+2023-11-05 15:59:41.303 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0239 s
+2023-11-05 15:59:41.303 +02:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.6506 s
+2023-11-05 15:59:48.151 +02:00 [INF] HTTP OPTIONS /api/Contract/all responded 204 in 0.0040 s
+2023-11-05 15:59:48.278 +02:00 [INF] HTTP GET /api/Contract/all responded 200 in 0.1169 s

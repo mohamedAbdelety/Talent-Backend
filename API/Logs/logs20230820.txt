@@ -1,0 +1,514 @@
+2023-08-20 09:27:44.382 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0395 s
+2023-08-20 09:27:47.171 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0010 s
+2023-08-20 09:27:47.393 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.2151 s
+2023-08-20 09:27:47.393 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 2.8402 s
+2023-08-20 09:27:49.429 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0214 s
+2023-08-20 09:27:50.372 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0061 s
+2023-08-20 09:31:42.633 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 09:31:42.695 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0538 s
+2023-08-20 09:31:46.477 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0218 s
+2023-08-20 09:34:10.490 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 09:34:10.507 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0124 s
+2023-08-20 09:34:24.625 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0001 s
+2023-08-20 09:34:24.636 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0048 s
+2023-08-20 09:42:36.657 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0001 s
+2023-08-20 09:42:36.692 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0288 s
+2023-08-20 09:42:37.413 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 09:42:37.436 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0114 s
+2023-08-20 09:42:46.931 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 09:42:46.942 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0062 s
+2023-08-20 09:42:54.051 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0001 s
+2023-08-20 09:42:54.062 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0049 s
+2023-08-20 09:47:28.311 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 09:47:28.351 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0326 s
+2023-08-20 10:47:35.801 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0019 s
+2023-08-20 10:47:35.913 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0960 s
+2023-08-20 10:47:36.596 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0002 s
+2023-08-20 10:47:36.613 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0118 s
+2023-08-20 10:47:39.207 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0048 s
+2023-08-20 10:47:42.418 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 10:47:42.431 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0056 s
+2023-08-20 11:02:10.743 +03:00 [ERR] HTTP GET / responded 500 in 0.2017 s
+System.ArgumentException: The path in 'value' must start with '/'. (Parameter 'value')
+   at Microsoft.AspNetCore.Http.PathString..ctor(String value)
+   at Microsoft.AspNetCore.Http.PathString.FromUriComponent(String uriComponent)
+   at Microsoft.AspNetCore.Http.PathString.op_Implicit(String s)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 88
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:02:10.958 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: The path in 'value' must start with '/'. (Parameter 'value')
+   at Microsoft.AspNetCore.Http.PathString..ctor(String value)
+   at Microsoft.AspNetCore.Http.PathString.FromUriComponent(String uriComponent)
+   at Microsoft.AspNetCore.Http.PathString.op_Implicit(String s)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 88
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:03:15.859 +03:00 [INF] HTTP GET /dist/index.html responded 200 in 0.2667 s
+2023-08-20 11:03:16.036 +03:00 [INF] HTTP GET /dist/index.html responded 200 in 0.0032 s
+2023-08-20 11:03:16.041 +03:00 [INF] HTTP GET /dist/index.html responded 200 in 0.0020 s
+2023-08-20 11:03:16.064 +03:00 [INF] HTTP GET /dist/index.html responded 200 in 0.0086 s
+2023-08-20 11:03:16.067 +03:00 [INF] HTTP GET /dist/index.html responded 200 in 0.0080 s
+2023-08-20 11:06:04.519 +03:00 [INF] HTTP GET /index.html responded 304 in 0.0495 s
+2023-08-20 11:06:04.739 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.0485 s
+2023-08-20 11:06:04.769 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.0825 s
+2023-08-20 11:06:04.769 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.1005 s
+2023-08-20 11:06:04.769 +03:00 [INF] HTTP GET /main.286be69fa2d718c45715.js responded 200 in 0.0824 s
+2023-08-20 11:06:05.294 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0111 s
+2023-08-20 11:06:14.474 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.0564 s
+2023-08-20 11:06:16.965 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.1209 s
+2023-08-20 11:29:49.465 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.3752 s
+2023-08-20 11:29:57.283 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1384 s
+2023-08-20 11:30:23.368 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0037 s
+2023-08-20 11:30:23.418 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0401 s
+2023-08-20 11:30:25.029 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0002 s
+2023-08-20 11:30:25.061 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0234 s
+2023-08-20 11:30:27.718 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0146 s
+2023-08-20 11:30:58.709 +03:00 [INF] HTTP POST /api/talent responded 200 in 1.0609 s
+2023-08-20 11:30:58.813 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 11:30:58.867 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0473 s
+2023-08-20 11:31:16.060 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0334 s
+2023-08-20 11:31:19.878 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0057 s
+2023-08-20 11:31:24.057 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 0.4700 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:31:24.330 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:31:29.371 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0000 s
+2023-08-20 11:31:29.639 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 0.2633 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:31:29.714 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:31:31.209 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0001 s
+2023-08-20 11:31:31.226 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0059 s
+2023-08-20 11:31:32.999 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 0.2416 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:31:33.079 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:31:36.505 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0001 s
+2023-08-20 11:31:36.517 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0052 s
+2023-08-20 11:31:38.035 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 11:31:38.285 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 0.2434 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:31:38.378 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:34:13.305 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 11:34:13.632 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 0.3219 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:34:13.724 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:37:28.342 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 11:37:28.655 +03:00 [ERR] HTTP GET /api/Talent/GetPendingTalents responded 500 in 0.3042 s
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-08-20 11:37:28.729 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\talents\talents\backend-project-template\API\wwwroot\images\mountains-gf0c67db2b_1920.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at API.Controllers.TalentController.<GetPendingTalents>b__6_0(Talent t) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Controllers.TalentController.GetPendingTalents() in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-20 11:37:45.958 +03:00 [INF] HTTP OPTIONS /api/talent/ responded 204 in 0.0001 s
+2023-08-20 11:37:54.209 +03:00 [INF] HTTP DELETE /api/talent/ responded 200 in 8.2441 s
+2023-08-20 11:38:07.999 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0001 s
+2023-08-20 11:38:08.017 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0065 s
+2023-08-20 11:38:15.488 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0006 s
+2023-08-20 11:38:15.526 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0290 s
+2023-08-20 11:40:38.182 +03:00 [INF] HTTP GET /index.html responded 200 in 0.2789 s
+2023-08-20 11:40:38.278 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.0092 s
+2023-08-20 11:40:38.340 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.0725 s
+2023-08-20 11:40:38.513 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.2167 s
+2023-08-20 11:40:38.519 +03:00 [INF] HTTP GET /main.79f68c155b3e9ffb1153.js responded 200 in 0.2223 s
+2023-08-20 11:40:38.813 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0092 s
+2023-08-20 11:40:47.017 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 304 in 0.0014 s
+2023-08-20 11:40:54.269 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.9327 s
+2023-08-20 12:39:50.523 +03:00 [INF] HTTP OPTIONS /api/Talent/GetApprovedTalents responded 204 in 0.0472 s
+2023-08-20 12:39:53.262 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 2.5543 s
+2023-08-20 12:39:53.394 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0006 s
+2023-08-20 12:39:53.536 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.1353 s
+2023-08-20 12:40:30.430 +03:00 [INF] HTTP POST /api/talent responded 200 in 0.7834 s
+2023-08-20 12:40:30.474 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 12:40:30.554 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0727 s
+2023-08-20 12:40:55.901 +03:00 [INF] HTTP OPTIONS /api/talent/ responded 204 in 0.0001 s
+2023-08-20 12:40:55.977 +03:00 [INF] HTTP DELETE /api/talent/ responded 200 in 0.0678 s
+2023-08-20 12:41:03.654 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-08-20 12:41:03.664 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0052 s
+2023-08-20 17:05:25.269 +03:00 [INF] HTTP GET /index.html responded 200 in 0.8839 s
+2023-08-20 17:05:25.687 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.2258 s
+2023-08-20 17:05:26.439 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.9761 s
+2023-08-20 17:05:26.441 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.8363 s
+2023-08-20 17:05:26.454 +03:00 [INF] HTTP GET /main.79f68c155b3e9ffb1153.js responded 200 in 0.8039 s
+2023-08-20 17:05:27.079 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0190 s
+2023-08-20 17:05:33.409 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.6225 s
+2023-08-20 17:05:34.667 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.2937 s
+2023-08-20 17:05:38.755 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 304 in 0.0002 s
+2023-08-20 17:05:42.522 +03:00 [INF] HTTP GET /index.html responded 200 in 0.0637 s
+2023-08-20 17:05:42.768 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.1316 s
+2023-08-20 17:05:42.771 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.1352 s
+2023-08-20 17:05:42.788 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.0309 s
+2023-08-20 17:05:42.909 +03:00 [INF] HTTP GET /main.79f68c155b3e9ffb1153.js responded 200 in 0.0895 s
+2023-08-20 17:05:43.374 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0260 s
+2023-08-20 17:05:43.414 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0133 s
+2023-08-20 17:05:43.858 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 0.0247 s
+2023-08-20 17:14:36.140 +03:00 [INF] HTTP GET /index.html responded 200 in 0.4680 s
+2023-08-20 17:14:36.421 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.0039 s
+2023-08-20 17:14:36.564 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.1494 s
+2023-08-20 17:14:37.678 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 1.2575 s
+2023-08-20 17:14:37.686 +03:00 [INF] HTTP GET /main.4cc4b1fedb7f823d15d0.js responded 200 in 1.2586 s
+2023-08-20 17:14:38.250 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0720 s
+2023-08-20 17:14:38.562 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 0.0063 s
+2023-08-20 17:14:51.360 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.8015 s
+2023-08-20 17:16:09.875 +03:00 [INF] HTTP GET /index.html responded 200 in 0.1461 s
+2023-08-20 17:16:10.148 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.0304 s
+2023-08-20 17:16:10.203 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.1610 s
+2023-08-20 17:16:10.221 +03:00 [INF] HTTP GET /main.4cc4b1fedb7f823d15d0.js responded 200 in 0.1139 s
+2023-08-20 17:16:10.221 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.1823 s
+2023-08-20 17:16:10.853 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0081 s
+2023-08-20 17:16:11.043 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 0.0043 s
+2023-08-20 17:22:23.617 +03:00 [INF] HTTP GET /index.html responded 404 in 0.0073 s
+2023-08-20 17:42:37.485 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 1.9020 s
+2023-08-20 17:42:51.649 +03:00 [INF] HTTP GET /index.html responded 200 in 0.4204 s
+2023-08-20 17:42:51.688 +03:00 [INF] HTTP GET /runtime.7b63b9fd40098a2e8207.js responded 200 in 0.0170 s
+2023-08-20 17:42:51.711 +03:00 [INF] HTTP GET /styles.337053965228adf8e964.css responded 200 in 0.0408 s
+2023-08-20 17:42:52.085 +03:00 [INF] HTTP GET /polyfills.94daefd414b8355106ab.js responded 200 in 0.3690 s
+2023-08-20 17:42:52.090 +03:00 [INF] HTTP GET /main.19050cf4ead94a4e5895.js responded 200 in 0.3722 s
+2023-08-20 17:42:52.487 +03:00 [INF] HTTP GET /fontawesome-webfont.20fd1704ea223900efa9.woff2 responded 200 in 0.0132 s
+2023-08-20 17:43:00.971 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1731 s

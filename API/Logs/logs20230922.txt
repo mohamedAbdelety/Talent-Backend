@@ -1,0 +1,804 @@
+2023-09-22 09:46:29.313 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.9466 s
+2023-09-22 09:46:29.395 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0944 s
+2023-09-22 09:47:25.018 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0098 s
+2023-09-22 09:47:25.355 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.3204 s
+2023-09-22 09:47:27.160 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0730 s
+2023-09-22 09:47:27.188 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0210 s
+2023-09-22 09:49:33.106 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0172 s
+2023-09-22 09:49:33.157 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0492 s
+2023-09-22 09:53:23.237 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.4998 s
+2023-09-22 09:53:23.299 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0739 s
+2023-09-22 10:25:46.671 +03:00 [ERR] HTTP GET /api/Talent/GetApprovedTalents responded 500 in 5.6450 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method404(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__8(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-22 10:25:46.671 +03:00 [ERR] HTTP GET /api/Talent/GetApprovedTalents responded 500 in 5.8951 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method404(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__8(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-22 10:25:47.421 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method404(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__8(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-22 10:25:47.421 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method404(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method403(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__8(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-22 10:29:47.154 +03:00 [ERR] HTTP GET /api/Talent/GetApprovedTalents responded 500 in 2.5042 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method337(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-22 10:29:47.154 +03:00 [ERR] HTTP GET /api/Talent/GetApprovedTalents responded 500 in 2.4425 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method337(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-22 10:29:47.437 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method337(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-22 10:29:47.452 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method337(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method336(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-22 10:32:35.799 +03:00 [ERR] HTTP GET /api/Talent/GetApprovedTalents responded 500 in 2.5868 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method306(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-22 10:32:35.799 +03:00 [ERR] HTTP GET /api/Talent/GetApprovedTalents responded 500 in 2.4019 s
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method306(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+2023-09-22 10:32:36.080 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method306(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-22 10:32:36.080 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Type Map configuration:
+Talent -> ReturnedTalent
+Domain.Entities.Talent -> Domain.Entities.DTO.ReturnedTalent
+
+Destination Member:
+Medias
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Media -> MediaDto
+Domain.Entities.Media -> Domain.Entities.DTO.MediaDto
+   at lambda_method306(Closure , Media , MediaDto , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method305(Closure , Object , ReturnedTalent , ResolutionContext )
+   at Service.Services.TalentService.<>c__DisplayClass6_0.<GetTalents>b__7(Talent t) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 99
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Service.Services.TalentService.GetTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\Service\Services\TalentService.cs:line 97
+   at API.Controllers.TalentController.GetApprovedTalents(TalentFilterDTO talentfilter, PaginationFilter pagination) in D:\talents\talents\backend-project-template\API\Controllers\TalentController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at API.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in D:\talents\talents\backend-project-template\API\Startup.cs:line 85
+--- End of stack trace from previous location ---
+   at API.Helpers.SerilogMiddleware.Invoke(HttpContext httpContext) in D:\talents\talents\backend-project-template\API\Helpers\SerilogMiddleware.cs:line 37
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-22 10:42:01.269 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.9449 s
+2023-09-22 10:42:01.269 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 2.2191 s
+2023-09-22 10:49:17.193 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1853 s
+2023-09-22 10:49:17.313 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0378 s
+2023-09-22 10:54:39.871 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1642 s
+2023-09-22 10:54:39.885 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0214 s
+2023-09-22 10:55:07.636 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0652 s
+2023-09-22 10:55:07.687 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0794 s
+2023-09-22 10:55:59.224 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0554 s
+2023-09-22 10:55:59.261 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0296 s
+2023-09-22 10:56:30.054 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1628 s
+2023-09-22 10:56:30.081 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1899 s
+2023-09-22 10:56:46.125 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0701 s
+2023-09-22 10:56:46.127 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0745 s
+2023-09-22 10:57:26.705 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0944 s
+2023-09-22 10:57:26.996 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0379 s
+2023-09-22 10:57:51.571 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1346 s
+2023-09-22 10:57:51.611 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1735 s
+2023-09-22 10:58:41.333 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1922 s
+2023-09-22 10:58:41.336 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1586 s
+2023-09-22 10:59:28.495 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1239 s
+2023-09-22 10:59:28.504 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1189 s
+2023-09-22 10:59:34.617 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0250 s
+2023-09-22 10:59:34.620 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0264 s
+2023-09-22 10:59:44.151 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0234 s
+2023-09-22 10:59:44.271 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0408 s
+2023-09-22 11:00:59.797 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0690 s
+2023-09-22 11:00:59.826 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0458 s
+2023-09-22 11:02:52.213 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.9404 s
+2023-09-22 11:02:52.213 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 1.9407 s
+2023-09-22 11:03:30.650 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1788 s
+2023-09-22 11:03:30.712 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0779 s
+2023-09-22 11:12:44.238 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1970 s
+2023-09-22 11:12:44.241 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1085 s
+2023-09-22 11:12:57.923 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0009 s
+2023-09-22 11:12:57.989 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0557 s
+2023-09-22 11:13:00.087 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0335 s
+2023-09-22 11:13:00.105 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0276 s
+2023-09-22 11:13:48.340 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0643 s
+2023-09-22 11:13:48.600 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0192 s
+2023-09-22 11:14:27.973 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0683 s
+2023-09-22 11:14:27.998 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0674 s
+2023-09-22 11:15:02.684 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0944 s
+2023-09-22 11:15:02.706 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0344 s
+2023-09-22 11:15:25.938 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0278 s
+2023-09-22 11:15:26.001 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0536 s
+2023-09-22 11:15:49.768 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0321 s
+2023-09-22 11:15:49.862 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0450 s
+2023-09-22 11:16:55.249 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0722 s
+2023-09-22 11:16:55.266 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0362 s
+2023-09-22 11:17:42.932 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1051 s
+2023-09-22 11:17:42.951 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0614 s
+2023-09-22 11:17:55.309 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0262 s
+2023-09-22 11:17:55.357 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0305 s
+2023-09-22 11:18:15.837 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0447 s
+2023-09-22 11:18:15.864 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0203 s
+2023-09-22 11:18:43.927 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0669 s
+2023-09-22 11:18:43.965 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0750 s
+2023-09-22 11:18:56.452 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0212 s
+2023-09-22 11:18:56.705 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0656 s
+2023-09-22 11:20:13.940 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0704 s
+2023-09-22 11:20:13.953 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0231 s
+2023-09-22 11:21:18.879 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0756 s
+2023-09-22 11:21:18.912 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0403 s
+2023-09-22 11:21:57.347 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0646 s
+2023-09-22 11:21:57.378 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0401 s
+2023-09-22 11:22:35.829 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0702 s
+2023-09-22 11:22:35.848 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0275 s
+2023-09-22 11:24:44.158 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0749 s
+2023-09-22 11:24:44.181 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0400 s
+2023-09-22 11:25:33.336 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0448 s
+2023-09-22 11:25:33.418 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0233 s
+2023-09-22 11:26:15.214 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1099 s
+2023-09-22 11:26:15.260 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0587 s
+2023-09-22 11:29:47.568 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0692 s
+2023-09-22 11:29:47.580 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0237 s
+2023-09-22 11:30:09.738 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0722 s
+2023-09-22 11:30:09.773 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0418 s
+2023-09-22 11:30:59.245 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0555 s
+2023-09-22 11:30:59.259 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0222 s
+2023-09-22 11:31:21.435 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0002 s
+2023-09-22 11:31:21.455 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0131 s
+2023-09-22 11:31:25.254 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0697 s
+2023-09-22 11:31:25.274 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0228 s
+2023-09-22 11:31:31.013 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-22 11:31:31.026 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0059 s
+2023-09-22 11:31:33.070 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0316 s
+2023-09-22 11:31:33.087 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0249 s
+2023-09-22 11:34:08.308 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0540 s
+2023-09-22 11:34:08.372 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0278 s
+2023-09-22 11:34:22.196 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-22 11:34:22.207 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0053 s
+2023-09-22 11:34:42.736 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-22 11:34:42.773 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0317 s
+2023-09-22 11:34:44.821 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0223 s
+2023-09-22 11:34:44.862 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0415 s
+2023-09-22 11:35:39.932 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0010 s
+2023-09-22 11:35:39.980 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0402 s
+2023-09-22 11:38:51.127 +03:00 [INF] HTTP OPTIONS /api/Talent/GetPendingTalents responded 204 in 0.0001 s
+2023-09-22 11:38:51.163 +03:00 [INF] HTTP GET /api/Talent/GetPendingTalents responded 200 in 0.0310 s
+2023-09-22 11:55:02.288 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1225 s
+2023-09-22 11:55:02.320 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0436 s
+2023-09-22 11:55:13.861 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0656 s
+2023-09-22 11:55:13.879 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0348 s
+2023-09-22 11:57:22.385 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0843 s
+2023-09-22 11:57:22.400 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0240 s
+2023-09-22 11:58:11.282 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0442 s
+2023-09-22 11:58:11.299 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0252 s
+2023-09-22 11:58:15.787 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0196 s
+2023-09-22 11:58:15.883 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0347 s
+2023-09-22 11:58:17.372 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0213 s
+2023-09-22 11:58:17.409 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0225 s
+2023-09-22 11:58:51.118 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0551 s
+2023-09-22 11:58:51.154 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0432 s
+2023-09-22 11:58:54.749 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0351 s
+2023-09-22 11:58:54.763 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0248 s
+2023-09-22 12:01:13.291 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0529 s
+2023-09-22 12:01:13.352 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0265 s
+2023-09-22 13:54:45.121 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.4034 s
+2023-09-22 13:54:45.289 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.2078 s
+2023-09-22 14:07:30.160 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1400 s
+2023-09-22 14:07:30.180 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0406 s
+2023-09-22 14:08:09.886 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0525 s
+2023-09-22 14:08:09.943 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0529 s
+2023-09-22 14:08:51.749 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0551 s
+2023-09-22 14:08:51.838 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0404 s
+2023-09-22 14:09:20.710 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0625 s
+2023-09-22 14:09:20.735 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0452 s
+2023-09-22 14:09:53.728 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0746 s
+2023-09-22 14:09:53.750 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0370 s
+2023-09-22 14:10:12.762 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0227 s
+2023-09-22 14:10:12.792 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0175 s
+2023-09-22 14:10:34.631 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0244 s
+2023-09-22 14:10:34.698 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0742 s
+2023-09-22 14:12:37.694 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0568 s
+2023-09-22 14:12:37.706 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0211 s
+2023-09-22 14:13:28.866 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0950 s
+2023-09-22 14:13:28.927 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0749 s
+2023-09-22 14:14:09.106 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0610 s
+2023-09-22 14:14:09.189 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0244 s
+2023-09-22 14:15:09.578 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0830 s
+2023-09-22 14:15:09.635 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0616 s
+2023-09-22 14:16:32.337 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0497 s
+2023-09-22 14:16:32.430 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0403 s
+2023-09-22 14:17:04.528 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0810 s
+2023-09-22 14:17:04.546 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0279 s
+2023-09-22 14:17:34.933 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0323 s
+2023-09-22 14:17:34.983 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0543 s
+2023-09-22 14:18:01.499 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1138 s
+2023-09-22 14:18:01.517 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0332 s
+2023-09-22 14:20:27.860 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0661 s
+2023-09-22 14:20:28.121 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1479 s
+2023-09-22 14:21:30.449 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0738 s
+2023-09-22 14:21:30.468 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0526 s
+2023-09-22 14:22:06.909 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0661 s
+2023-09-22 14:22:06.955 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0626 s
+2023-09-22 14:23:31.839 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0287 s
+2023-09-22 14:23:31.932 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0210 s
+2023-09-22 14:23:38.599 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0315 s
+2023-09-22 14:23:38.620 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0372 s
+2023-09-22 14:23:41.161 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0212 s
+2023-09-22 14:23:41.197 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0211 s
+2023-09-22 14:24:22.634 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0388 s
+2023-09-22 14:24:22.726 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0447 s
+2023-09-22 14:24:48.178 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0616 s
+2023-09-22 14:24:48.197 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0433 s
+2023-09-22 14:25:09.497 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0212 s
+2023-09-22 14:25:09.546 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0536 s
+2023-09-22 14:25:15.419 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0416 s
+2023-09-22 14:25:15.473 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0642 s
+2023-09-22 14:26:49.301 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0721 s
+2023-09-22 14:26:49.318 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0235 s
+2023-09-22 14:27:13.666 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0534 s
+2023-09-22 14:27:13.682 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0268 s
+2023-09-22 14:27:22.870 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0846 s
+2023-09-22 14:27:22.902 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0388 s
+2023-09-22 14:28:35.872 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0494 s
+2023-09-22 14:28:35.945 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0177 s
+2023-09-22 14:30:08.111 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1165 s
+2023-09-22 14:30:08.123 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0336 s
+2023-09-22 14:30:10.621 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0196 s
+2023-09-22 14:30:10.857 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0649 s
+2023-09-22 14:30:56.415 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0248 s
+2023-09-22 14:30:56.536 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0502 s
+2023-09-22 14:31:11.810 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0320 s
+2023-09-22 14:31:11.831 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0302 s
+2023-09-22 14:33:19.563 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0473 s
+2023-09-22 14:33:19.943 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0745 s
+2023-09-22 14:33:50.760 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0740 s
+2023-09-22 14:33:50.776 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0341 s
+2023-09-22 14:34:33.925 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0677 s
+2023-09-22 14:34:33.952 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0432 s
+2023-09-22 14:39:24.480 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0671 s
+2023-09-22 14:39:24.736 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0389 s
+2023-09-22 14:40:22.003 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0507 s
+2023-09-22 14:40:22.294 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0282 s
+2023-09-22 14:41:10.035 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0620 s
+2023-09-22 14:41:10.056 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0383 s
+2023-09-22 14:41:41.843 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0586 s
+2023-09-22 14:41:41.912 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0244 s
+2023-09-22 14:42:18.285 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0586 s
+2023-09-22 14:42:18.302 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0274 s
+2023-09-22 14:44:46.672 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0544 s
+2023-09-22 14:44:46.734 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0720 s
+2023-09-22 14:45:16.880 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0308 s
+2023-09-22 14:45:16.961 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0548 s
+2023-09-22 14:45:41.758 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0708 s
+2023-09-22 14:45:41.771 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0396 s
+2023-09-22 14:46:02.644 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1340 s
+2023-09-22 14:46:02.672 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0471 s
+2023-09-22 14:46:24.085 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0274 s
+2023-09-22 14:46:24.163 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0299 s
+2023-09-22 14:46:40.771 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0196 s
+2023-09-22 14:46:40.885 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0694 s
+2023-09-22 14:47:15.034 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0782 s
+2023-09-22 14:47:15.072 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0240 s
+2023-09-22 14:54:26.014 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1292 s
+2023-09-22 14:54:26.234 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0351 s
+2023-09-22 14:55:38.480 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1243 s
+2023-09-22 14:55:38.513 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0309 s
+2023-09-22 14:56:22.191 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0513 s
+2023-09-22 14:56:22.206 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0335 s
+2023-09-22 15:03:00.434 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.1772 s
+2023-09-22 15:03:00.461 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0471 s
+2023-09-22 15:04:45.116 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0694 s
+2023-09-22 15:04:45.161 +03:00 [INF] HTTP GET /api/Talent/GetApprovedTalents responded 200 in 0.0636 s
